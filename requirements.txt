@@ -3,6 +3,4 @@ uvicorn
 python-dotenv
 google-genai
 langgraph
-chromadb
-sentence-transformers
 pydantic
