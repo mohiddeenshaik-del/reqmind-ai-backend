@@ -1,0 +1,9 @@
+Non-functional requirements categories:
+
+Performance: Response time, throughput, concurrency
+Security: Authentication, authorization, encryption
+Scalability: Horizontal scaling, load handling
+Availability: Uptime requirements (99.9%)
+Usability: Accessibility, user experience
+Compliance: Regulatory and legal requirements
+Maintainability: Code modularity and logging

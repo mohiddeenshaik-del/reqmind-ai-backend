@@ -1,0 +1,15 @@
+A Business Requirement Document (BRD) should include:
+
+1. Executive Summary
+2. Business Objective
+3. Project Scope
+4. Stakeholders
+5. Functional Requirements
+6. Non-Functional Requirements
+7. Assumptions
+8. Constraints
+9. Risks
+10. Acceptance Criteria
+
+Functional requirements must be clear, measurable, and actionable.
+Non-functional requirements should include performance, security, scalability, and compliance.

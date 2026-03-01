@@ -1,0 +1,8 @@
+High-quality requirements should:
+
+- Avoid vague words like "fast", "user-friendly", "seamless"
+- Be specific and measurable
+- Clearly define system behavior
+- Include acceptance criteria
+- Specify actors and actions
+- Avoid ambiguity
