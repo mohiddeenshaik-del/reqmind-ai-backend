@@ -33,7 +33,10 @@ def analyze_requirement(data: RequirementInput):
         try:
             structured_output = json.loads(result["final_output"])
         except json.JSONDecodeError:
-            return {"error": "Invalid JSON returned by model"}
+            return {
+                "error": "Invalid JSON returned by model",
+                "raw_output": result["final_output"]
+            }
 
         structured_output["similarity_score"] = result["similarity_score"]
 
