@@ -1,5 +1,17 @@
 # ReqMind AI – AI Requirement Intelligence Engine
 
+## Demo
+
+LinkedIn Demo Video  
+ 
+https://www.linkedin.com/posts/shaik-khaja-mohiddeen_artificialintelligence-aiengineering-aiarchitecture-ugcPost-7434996359080038400-alp7?utm_source=share&utm_medium=member_desktop&rcm=ACoAABm4vdABjU7YkY01jx4rSf8_ijSrKcjHY_k
+
+## Why This Project
+
+Software projects often fail due to unclear requirements and hidden risks.
+
+ReqMind AI explores how AI can assist business analysts and product teams by transforming raw stakeholder inputs into structured, production-ready requirements.
+
 ReqMind AI is an AI-powered backend system that transforms raw stakeholder requirements into structured software requirement documentation using Retrieval-Augmented Generation (RAG) and multi-agent orchestration.
 
 The system analyzes unstructured product ideas and generates:
