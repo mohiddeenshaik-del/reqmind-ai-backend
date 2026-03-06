@@ -1,12 +1,24 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-from fastapi import FastAPI
+
 from pydantic import BaseModel
 from agents_graph import build_graph
 import json
 
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 graph = build_graph()
 
 class RequirementInput(BaseModel):
